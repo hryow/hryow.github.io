@@ -31,6 +31,7 @@ body {
 
 .navbar ul {
   display: flex;
+  color: var(--font-color);
 }
 
 .navbar ul .other li{
@@ -57,7 +58,7 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-    color: var(--font-color)
+    color: var(--font-color);
 }
 
 .navbar ul .other li a:hover {
