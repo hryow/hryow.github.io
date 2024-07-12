@@ -1,0 +1,78 @@
+h1 {
+  color: var(--font-color);
+  display: flex;
+  font-size: 250%;
+  font-weight: normal;
+}
+
+.headertext {
+  font-size: 200%;
+}
+
+h2 {
+    color: var(--font-color);
+    font-weight: normal;
+}
+
+.pagecontent {
+    width: 80%;
+    margin: auto;
+}
+
+span {
+    background-color: var(--green);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 110%;
+}
+
+p1 {
+    font-size: 150%;
+    text-align: center;
+}
+
+.block {
+    align-content: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introblock {
+    margin-right: 50%;
+    margin-top: 3%;
+}
+
+.buttons {
+    justify-content: space-evenly; 
+}
+
+.github, .linkedin, .resume {
+    text-decoration: none;
+    color:var(--font-color);
+    padding: 8px;
+    background-color: var(--green);
+    border-radius: 10px;
+    font-size: 110%;
+}
+
+.github:hover, .linkedin:hover, .resume:hover {
+    color: var(--hover-color);
+}
+
+b {
+    color: var(--font-color);
+}
+
+button {
+    color: var(--font-color);
+    background-color: var(--green);
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 100%;
+}

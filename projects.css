@@ -1,0 +1,13 @@
+.content {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.button {
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 8px;
+    background-color: var(--green);
+    border-radius: 10px;
+    font-size: 100%;
+}
