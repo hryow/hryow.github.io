@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- responsive web design -->
+        <meta charset= "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Hayoung Ryow </title>
+
+        <!-- CSS style sheet links -->
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/proj.css">
+
+        <!-- add in icon here -->
+        
+        <!-- heading font: Playwrite US Trad -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+        <!-- body font: Inria Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+    </head>
+
+<body>
+    <!-- navigation bar -->
+    <nav id="navbar">
+        <div id="name">
+            <h1> hayoung ryow </h1>
+        </div>
+
+        <!-- navbar links -->
+        <div id="links">
+            <ul id="navbar-links">
+                <li> <a href="../index.html">home</a></li>
+                <li> <a href="../projects.html"><strong>projects</strong></a></li>
+                <li> <a href="../about.html">about</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <main>
+        <h5>webcrack</h5>
+        <p><span><strong>hackathon finalist</strong></span></p>
+
+        <img class="image" src="../media/webcrack/webcrack.png">
+
+        <h4>the project</h4>
+        <div class="block">
+            <a class="button" href="https://github.com/hryow/WebCrack" target="_blank">+ github (website)</a>
+            <a class="button" href="https://github.com/tsaichenlin/WebCrackExtension" target="_blank">+ github (extension)</a>
+            <a class="button" href="https://devpost.com/software/webcrack" target="_blank">+ devpost</a>
+        </div>
+        <p class="description"> WebCrack is a Chrome extension that is designed to scan online articles for potential bias through analysis of the source and author. Added functionality includes estimating read time and suggesting additional articles with differing perspectives. 
+
+        The goal of this project, submitted for the 2024 Hack for Humanity Hackathon, was to empower ESL (English as a Second Language) individuals by simplifying the consumption of online information, and making it easier for these people to recognize potential biases and misinformation. 
+        </p>
+
+        <h4>toolkit</h4>
+        <p class="description"> <strong><span>Programming Languages:</span></strong> HTML, CSS, Javascript, React.js
+            <br> <strong><span>API:</span></strong> ChatGPT API
+            <br> <strong><span>Framework:</span></strong> LangChain
+            <br> <strong><span>Additional Tools:</span></strong> Procreate, Figma
+        </p>
+
+        <h4>my role</h4>
+        <p class="description"> I played a key role in determining the product's overall look and in developing the product website for the Chrome extension. 
+        <br><strong><span>Notable Contributions:</span></strong>
+        <br> <img class="star" src="../media/star.png"> created all animations and images in Procreate
+        <br> <img class="star" src="../media/star.png"> determined overall look of project in Figma/Procreate
+        <br> <img class="star" src="../media/star.png"> presented in a friendly but professional manner
+        </p>
+
+        <h4>gallery</h4>
+        <img class="webcrack-image" src="../media/webcrack/webcrack-1.png">
+        <img class="webcrack-image" src="../media/webcrack/webcrack-2.png">
+        <img class="webcrack-image" src="../media/webcrack/webcrack-3.png">
+        <img class="webcrack-image" src="../media/webcrack/webcrack-4.png">
+
+
+        <br>
+        <br>
+        <a class="button" href="../projects.html">+ back to projects +</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </main>
+  </body>
+
+  <script type="text/javascript">
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+</html>

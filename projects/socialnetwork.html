@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- responsive web design -->
+        <meta charset= "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Hayoung Ryow </title>
+
+        <!-- CSS style sheet links -->
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/proj.css">
+
+        <!-- add in icon here -->
+        
+        <!-- heading font: Playwrite US Trad -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+        <!-- body font: Inria Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+    </head>
+
+<body>
+    <!-- navigation bar -->
+    <nav id="navbar">
+        <div id="name">
+            <h1> hayoung ryow </h1>
+        </div>
+
+        <!-- navbar links -->
+        <div id="links">
+            <ul id="navbar-links">
+                <li> <a href="../index.html">home</a></li>
+                <li> <a href="../projects.html"><strong>projects</strong></a></li>
+                <li> <a href="../about.html">about</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <main>
+        <h5>social network</h5>
+        <p><span><strong>Full Stack Project</strong></span></p>
+
+        <video width="50%" height="100%" controls>
+            <source src="../media/socialnetworkdemo.mp4" type="video/mp4">
+  
+        </video>
+
+        <h4>the project</h4>
+        <div class="block">
+            <a class="button" href="https://github.com/hryow/socialnetwork" target="_blank">+ github</a>
+        </div>
+        
+        <p class="description"> As can be deduced from the title, this project is an attempt at trying to create a social networking app. It uses a graph implementation to connect users, which are nodes within the graph. The connections between nodes in the graph are users who are "friends." Additional implementation includes only allowing for valid users to login, suggestions for friends, posting functionality. The posts can also be reacted to, with a list of who reacted, as well as what they reacted. 
+
+            <br>
+            <br> Since this was my first time working on such a large project on my own, I found it quite a challenge to debug, as it was often difficult for me to pinpoint exactly where the error was coming from. Creating the UI for the first time using QT was more enjoyable than I anticipated, which was a pleasant surprise. Given, it was a bit of a challenge, but overall an enjoyable project. 
+        </p>
+
+        <h4>toolkit</h4>
+        <p class="description"><strong><span> Programming Language:</span></strong> C++
+            <br><strong><span>Additional Tools: </span></strong> QT
+        </p>
+
+        <h4>gallery</h4>
+        <div class="image-gallery">
+            <img class="image" src="../media/socialnetwork1.png">
+            <img class="image" src="../media/socialnetwork2.png">
+            <img class="image" src="../media/socialnetwork4.png">
+        </div>
+        <br>
+
+
+        <a class="button" href="../projects.html">+ back to projects +</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </main>
+  </body>
+
+  <script type="text/javascript">
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+</html>
