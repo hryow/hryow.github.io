@@ -1,0 +1,162 @@
+html {
+  --background-color: #ffffff;
+  --purple-accent: #65558F;
+  --light-purple: #B2AAC7;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* nav bar */
+h1 {
+  font-family: "Playwrite US Trad", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 250%;
+  margin-top: 2%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+
+}
+
+a:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#navbar-links a:link, #navbar-links a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 5vw;
+}
+
+#navbar-links {
+  justify-content: space-between;
+  padding: 0;
+}
+
+/* headings */
+h2 {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 200%;
+}
+
+h3 {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 150%;
+}
+
+h4 {
+  font-family: "Playwrite US Trad", cursive;
+  font-style: normal;
+  font-size: 150%;
+  font-weight: normal;
+}
+
+h5 {
+  font-family: "Playwrite US Trad", cursive;
+  font-style: normal;
+  font-size: 200%;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+h6 {
+  font-family: "Playwrite US Trad", cursive;
+  font-style: normal;
+  font-size: 200%;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+/* body */
+p {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 180%;
+}
+
+.button {
+  background-color: var(--purple-accent);
+  color: white;
+  font-size: 80%;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: var(--light-purple);
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 5%;
+  right: 3%; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: white; 
+  color: black; 
+  cursor: pointer;
+  font-size: 40px;
+}
+
+#pfp {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 50px;
+}
+
+/* responsive design */
+@media only screen and (max-width: 500px) {
+  #navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #name {
+    text-align: center;
+  }
+
+  #navbar-links {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  #navbar-links li {
+    margin: 0.5rem 0;
+  }
+}
