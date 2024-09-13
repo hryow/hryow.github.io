@@ -1,78 +1,113 @@
-h1 {
-  color: var(--font-color);
+main {
   display: flex;
-  font-size: 250%;
-  font-weight: normal;
+  width: 80vw;
+  height: 60vh;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.headertext {
-  font-size: 200%;
+#external-links {
+  justify-content: space-evenly;
 }
 
-h2 {
-    color: var(--font-color);
-    font-weight: normal;
+#intro {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
 }
 
-.pagecontent {
-    width: 80%;
-    margin: auto;
+#intro h2{
+  margin-bottom: 0px;
+}
+
+#intro-text {
+  width: 65%;
+}
+
+/* contact me form */
+#contact {
+  margin-top: 2%;
+}
+
+#text {
+  text-align: center;
+}
+
+label {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+input[type=tel], input[type=email], input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+input[placeholder=Name] {
+  text-align: left;
+}
+
+input[type=submit] {
+  background-color: var(--purple-accent);
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10%;
+}
+
+input[type=submit]:hover {
+  font-weight: 700;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
 }
 
 span {
-    background-color: var(--green);
-    padding: 8px;
-    border-radius: 10px;
+  color: var(--purple-accent);
 }
-
-p {
-    font-size: 110%;
-}
-
-p1 {
-    font-size: 150%;
+ 
+/* responsive design */
+@media only screen and (max-width: 1187px) {
+  #intro h2 {
+    font-size: 35px;
     text-align: center;
-}
+  }
 
-.block {
-    align-content: center;
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-}
+  main {
+    width: 90vw;
+  }
 
-.introblock {
-    margin-right: 50%;
-    margin-top: 3%;
-}
+  #intro {
+    width: 100%;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.buttons {
-    justify-content: space-evenly; 
-}
+  #external-links {
+    flex-direction: column;
+  }
 
-.github, .linkedin, .resume {
-    text-decoration: none;
-    color:var(--font-color);
-    padding: 8px;
-    background-color: var(--green);
-    border-radius: 10px;
-    font-size: 110%;
-}
-
-.github:hover, .linkedin:hover, .resume:hover {
-    color: var(--hover-color);
-}
-
-b {
-    color: var(--font-color);
-}
-
-button {
-    color: var(--font-color);
-    background-color: var(--green);
-    border-radius: 10px;
-    border: none;
-    padding: 5px;
-    font-family: "Balsamiq Sans", sans-serif;
-    font-size: 100%;
+  #intro p {
+    text-align: center;
+  }
 }
