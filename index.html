@@ -1,118 +1,126 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="index.css">
-    <title> Hayoung Ryow </title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width. initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Concert+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
-</head>
+<html lang="en">
+    <head>
+        <!-- responsive web design -->
+        <meta charset= "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Hayoung Ryow </title>
+
+        <!-- CSS style sheet links -->
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/index.css">
+
+        <link rel="icon" href="./media/icon.png" type="image/x-icon" />
+        
+        <!-- heading font: Playwrite US Trad -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+        <!-- body font: Inria Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+    </head>
 
 <body>
-    <div class="balsamiq-sans-regular">
-        <div class="navbar">
-            <ul>
-                <div class="home">
-                <li><a href="index.html">hayoung ryow</a></li>
+    <!-- navigation bar -->
+    <nav id="navbar">
+        <div id="name">
+            <h1> hayoung ryow </h1>
         </div>
-        <div class="other">
-            <li><a href="projects.html">projects</a></li>
-            <li><a href="experience.html">experience</a></li>
-            <li><a href="artworks.html"> artworks</a></li>
-        </div>
-        </ul>
-    </div>
 
-    <div class="pagecontent">
-        <div class="introblock">
-            <div class="block">
-                <p1> Hi! I'm Hayoung Ryow, an aspiring software engineer with a passion for programming. I am currently studying computer science at Santa Clara University with minors in math and graphic design. In my free time, I like to dance, illustrate, and listen to music! </p1>
+        <!-- navbar links -->
+        <div id="links">
+            <ul id="navbar-links">
+                <li> <a href="index.html"><strong>home</strong></a></li>
+                <li> <a href="projects.html">projects</a></li>
+                <li> <a href="about.html">about</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <main>
+        <!-- introduction -->
+        <section id="intro">
+            <img id="pfp" src="./media/pfp.jpg"/>
+
+            <div id="intro-text">
+                <h2> Hi, my name is Hayoung Ryow! </h2>
+
+                <p id="bio">
+                    I am a third year studying Computer Science with an emphasis in Algorithms and Complexity and with minors in Mathematics and Graphic Design at Santa Clara University. I am currently seeking internship opportunities in Software roles, specifically in Full-Stack Engineering. In my free time, I enjoy dance, music, and art! 
+                </p>
+
+                <!-- external links -->
+                <div id="external-links">
+                    <a class="button" href="https://github.com/hryow" target="_blank">+ github</a>
+                    <a class="button" href="https://www.linkedin.com/in/hayoung-ryow-267910265/" target="_blank">+ linkedin</a>
+                    <!-- note: add updated resume here -->
+                    <a class="button" href="C:\Users\artlo\OneDrive\Documents\Portfolio Website\Resume (1).pdf">+ resume</a>
+                </div>
             </div>
-            <div class="buttons">
-                <br /> <a class="github" href="https://github.com/hryow" target="_blank">Github</a>
-                <a class="linkedin" href="https://www.linkedin.com/in/hayoung-ryow-267910265/" target="_blank">LinkedIn</a>
-                <a class="resume" href="C:\Users\artlo\OneDrive\Documents\Portfolio Website\Resume (1).pdf" download>Download My Resume!</a>
-            </div>
-            <br />
-            <br />
-        </div>
-        <div class="skills">
-            <h2><span>skills</span></h2>
-            <p>
-                <b>Programming Languages:</b> C++, Python, Javascript, HTML, CSS
-                <br /><b>Additional Technical Skills:</b> Adobe Photoshop, Canva, Figma, Adobe Illustrator
-                <br /><b>Soft Skills:</b> attention to detail, collaboration, communication, time management
-                <br /><b>Languages:</b> Korean, Chinese, Indonesian
-            </p>
-        </div>
-        <br />
-        <div class="education">
-            <h2><span>education</span></h2>
-            <p>
-                <b>Santa Clara University - B.S. in Computer Science</b>
-                <br />Sept 2022 - June 2026 | Santa Clara, CA
-                <br />Minors: Math, Graphic Design
-                <br />GPA: 3.6
-                <br />Relevant Coursework: Theory of Algorithms, Data Structures, Object-Oriented Programming
-            </p>
-        </div>
-        <br />
-        <div class="extracurriculars">
-            <h2><span>extracurriculars</span></h2>
-            <p>
-                <b>Daybreak Kpop Dance Crew</b>
-                <br /> Sept 2022 - Present
-                <br /> - served as Freshman Representative (freshman year) and Events Coordinator (sophomore year)
-                <br /> - currently serving as Co-Chair
-                <br />
-                <br /> <b>Korean Student Association (KSA)</b>
-                <br /> Sept 2022 - Present
-                <br /> - general member since Sept 2022
-                <br /> - serving as Historian since Sept 2024
-                <br />
-                <br /> <b>Asian & Pacific Islander Student Association (APSU)</b>
-                <br /> Sept 2022 - Present
-                <br /> - general member since Sept 2022
-                <br /> - served as Historian Sept 2023 - Jun 2024
-            </p>
-        </div>
-        <br />
-        <div class="contact">
-            <h2><span>contact</span></h2>
-            <p> Please contact me directly at <a href="mailto:hayoung.ryow@gmail.com">hayoung.ryow@gmail.com</a> or through here: </p>
-            <div class="container">
-                <form action="action_page.php">
+        </section>
 
-                    <label for="fname">First Name</label>
-                    <br />
-                    <input type="text" id="fname" name="firstname" placeholder="Your Name" style="width:50%">
-                    <br />
-                    <br />
-                    <label for="phonenumber">Phone Number</label>
-                    <br />
-                    <input type="text" id="pnum" name="phonenumber" placeholder="Phone Number" style="width:50%">
-                    <br />
-                    <br />
-                    <label for="email">Email</label>
-                    <br />
-                    <input type="text" id="em" name="email" placeholder="Email" style="width:50%">
-                    <br />
-                    <br />
+        <!-- contact me -->
+        <div id="contact">
+            <h5>contact me!</h5>
+            <p id="text"> Please contact me directly at <a href="mailto:hayoung.ryow@gmail.com"><span>hayoung.ryow@gmail.com</span></a> or through here: </p>
+            <div id="container">
+              <form id="contact-form" action="contact_form_handler.php" method="POST">
 
-                    <label for="subject">Subject</label>
-                    <br />
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width:50%"></textarea>
-                    <br />
-                    <button type="button"> Submit </button>
-                </form>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+
+                <br>
+                <br>
+                <label for="phone">Phone Number</label>
+                <br>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" placeholder="Email" required>
+
+                <br>
+                <br>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+                <input type="submit" value="+ submit +">
+
+              </form>
             </div>
         </div>
-
-    </div>
-
+    </main>
   </body>
+
+
+  <script type="text/javascript">
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
 </html>
