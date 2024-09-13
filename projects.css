@@ -1,13 +1,156 @@
-.content {
-    margin-top: 2%;
-    margin-left: 10%;
+main {  
+  height: 60vh;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 60%;
 }
 
-.button {
-    text-decoration: none;
-    color: var(--font-color);
-    padding: 8px;
-    background-color: var(--green);
-    border-radius: 10px;
-    font-size: 100%;
+button {
+  background-color: var(--light-purple);
+  color: white;
+  font-size: 80%;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:hover {
+  font-weight: 700;
+  background-color: var(--light-purple);
+  cursor: pointer;
+}
+
+span {
+  color: var(--purple-accent);
+}
+
+em {
+  opacity: 50%;
+}
+
+.tag {
+  background-color: var(--light-purple);
+  color: white;
+  font-size: 80%;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tag:hover {
+  background-color: var(--purple-accent);
+}
+
+.active {
+  background-color: var(--purple-accent);
+}
+
+article {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: 115%;
+}
+
+.proj-image {
+  width: 256px;
+  object-fit: cover;
+  margin: 0px;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.proj-image2{
+  width: 350px;
+  height: 240px;
+}
+
+.boywhodrewcats-image {
+  width: 80%;
+  height: 256px;
+  margin: 0px;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.cupofcoffee-image {
+  width: 85%;
+  height: 150px;
+  margin: 0px;
+  padding: 10px 30px;
+}
+
+.bg-rectangle {
+  border-radius: 30px;
+  width: 50%;
+  height: 300px;
+  align-content: center;
+}
+
+.proj-desc {
+  text-align: left;
+  width: 40%;
+}
+
+.heading {
+  font-size: 105%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h3 {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+  article {
+    flex-direction: column;
+  }
+  .proj-desc {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  .bg-rectangle {
+    width: 110%;
+    height: 250px;
+  }
+  .proj-image {
+    width: 200px;
+    height: 200px;
+  }
+  .cupofcoffee-image {
+    height: 50%;
+  }
+  .boywhodrewcats-image {
+    height: 70%;
+  }
+  .proj-image2 {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+/* for very small screens */
+@media only screen and (max-width: 480px) {
+  .proj-desc {
+    font-size: 0.8rem;
+  }
 }
