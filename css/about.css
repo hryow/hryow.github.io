@@ -1,0 +1,110 @@
+main {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+} 
+
+#about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about-me-text {
+  width: 68%;
+}
+
+#skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillsbox {
+  background-color: var(--light-purple);
+  width: 20%;
+  padding: 2%;
+  border-radius: 10%;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+  margin: 0px;
+  margin-right: 5px;
+}
+
+#education-text {
+  margin-top: 0px;
+}
+
+span {
+  opacity: 60%;
+}
+
+.date {
+  opacity: 60%;
+  margin-bottom: 0px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+/* Extra small screens */
+@media only screen and (max-width: 480px) {
+    #about-me-text p {
+        font-size: 0.9rem;
+    }
+
+    .skillsbox {
+        font-size: 0.8rem;
+    }
+
+    #education-text, .block {
+      font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+
+  #about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #skills {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skillsbox {
+    width: 60%;
+    border-radius: 10%;
+  }
+
+  .block {
+    text-align: left;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-bottom: 0px;
+    margin-right: 10%;
+  }
+
+  .block p{
+    margin-bottom: 0px;
+  }
+
+  #education-text {
+    text-align: left;
+    margin-left: 10%;
+    flex-direction: column;
+  }
+}
