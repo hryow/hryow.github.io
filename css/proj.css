@@ -1,5 +1,5 @@
 main {
-  max-width: 90vw;
+  max-width: 70vw;
   height: 60vh;
   margin: 0 auto;
   margin-top: 30px;
@@ -42,6 +42,10 @@ a:hover {
   font-weight: 400;
 }
 
+#link:hover {
+  font-weight: 700;
+}
+
 .star {
   width: 15px;
   height: 15px;
@@ -51,68 +55,35 @@ a:hover {
 }
 
 .image {
-  max-width: 100%;
-  height: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+  width: 300px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .webcrack-image {
-  max-width: 100%;
-  height: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+  width: 300px;
 }
 
-.mediform-image{
-  max-width: 100%;
-  height: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+.kkoom {
+  width: 500px;
+  margin: 3%;
 }
 
-/* boy who drew cats */
-
-.pdf {
-  width: 80%;
-  margin-left: 10%;
-  aspect-ratio: 4 / 3;
-  height: 100%;
-  margin-right: 10%;
+.final-product {
+  width: 90%;
+  margin: 3%;
+  margin-left: 9%;
 }
 
-.boywhodrewcats-image {
-  width: 80%;
-  margin-left: 10%;
-  height: 150%;
-  margin-right: 10%;
+object {
+  width: 90%;
+  height: 200%;
+  margin-left: 9%;
 }
 
-.boywhodrewcats-image1 {
-  width: 60%;
-  margin-left: 10%;
-  height: 180%;
-  margin-right: 10%;
-}
-
-/* a cup of coffee */
-.cupofcoffee-image {
-  max-width: 100%;
-  height: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-.cupofcoffee-image1{
-  width: 60%;
-  margin-right: 10%;
-}
-
-.image-gallery {
-  justify-content: space-between;
-}
-
-/* note to add stuff for img later */
 @media only screen and (max-width: 900px) {
   h4 {
     margin-bottom: 3%;
@@ -120,33 +91,8 @@ a:hover {
   .button {
     margin-bottom: 3%;
   }
-  .image {
-    width: 80%;
-    height: 70%;
-  }
-  .cupofcoffee-image {
-    width: 80%;
-    height: 40%;
-  }
-  .cupofcoffee-image1 {
-    width: 70%;
-    height: 30%;
-  }
-  .pdf {
-    width: 80%;
-  }
-  .boywhodrewcats-image {
-    height: 50%;
-  }
-  .boywhodrewcats-image1 {
-    height: 70%;
-  }
   video {
     width: 80%;
     height: 50%;
-  }
-  .mediform-image {
-    width: 80%;
-    height: 40%;
   }
 }
