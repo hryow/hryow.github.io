@@ -1,7 +1,7 @@
 main {
   display: flex;
   width: 80vw;
-  height: 60vh;
+  height: 50vh;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 10%;
@@ -82,7 +82,11 @@ input[type=submit]:hover {
 }
 
 span {
-  color: var(--purple-accent);
+  background-color: var(--light-purple);
+  border-radius: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-weight: 700;
 }
  
 /* responsive design */
