@@ -76,21 +76,6 @@ footer {
   height: 240px;
 }
 
-.boywhodrewcats-image {
-  width: 80%;
-  height: 256px;
-  margin: 0px;
-  padding: 10px 30px;
-  border-radius: 30px;
-}
-
-.cupofcoffee-image {
-  width: 85%;
-  height: 150px;
-  margin: 0px;
-  padding: 10px 30px;
-}
-
 .bg-rectangle {
   border-radius: 30px;
   width: 50%;
@@ -135,12 +120,6 @@ p {
   .proj-image {
     width: 200px;
     height: 200px;
-  }
-  .cupofcoffee-image {
-    height: 50%;
-  }
-  .boywhodrewcats-image {
-    height: 70%;
   }
   .proj-image2 {
     width: 250px;
