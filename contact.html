@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- responsive web design -->
+        <meta charset= "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Hayoung Ryow </title>
+
+        <!-- CSS style sheet links -->
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/contact.css">
+
+        <link rel="icon" href="./media/icon.png" type="image/x-icon" />
+
+        <script src="script.js"></script>
+        
+        <!-- heading font: Playwrite US Trad -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+        <!-- body font: Inria Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+    </head>
+
+<body>
+    <!-- navigation bar -->
+    <nav id="navbar">
+        <div id="name">
+            <h1> <a href="index.html">hayoung ryow </a></h1>
+        </div>
+
+        <!-- navbar links -->
+        <div id="links">
+            <ul id="navbar-links">
+                <li> <a href="projects.html">projects</a></li>
+                <li> <a href="about.html">about</a></li>
+                <li> <a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <main>
+        <h5> contact me! </h5>
+        <div class="wrapper">
+          <p> I can be reached by email at <a href="mailto:hayoung.ryow@gmail.com">hayoung.ryow@gmail.com</a>, by phone at (909) 497-4685, or through the form below:</p>
+          <form id="contactForm">
+              <div class="form-group">
+                  <label for="name">name</label>
+                  <br>
+                  <input type="text" id="name" 
+                         name="name" 
+                         placeholder="your name here" required>
+                  <span class="error-message" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                  <label for="email">email</label>
+                  <br>
+                  <input type="email" id="email" 
+                         name="email" 
+                         placeholder="your email here" required>
+                  <span class="error-message" id="emailError"></span>
+              </div>
+              <div class="form-group">
+                  <label for="phone">phone</label>
+                  <br>
+                  <input type="tel" id="phone" 
+                         name="phone" 
+                         placeholder="your phone number here" required>
+                  <span class="error-message" id="phoneError"></span>
+              </div>
+              <div class="form-group">
+                  <label for="message">message</label>
+                  <br>
+                  <textarea id="message" 
+                            name="message" 
+                            placeholder="write your message to me!" 
+                            rows="5" required></textarea>
+                  <span class="error-message" 
+                        id="messageError"></span>
+              </div>
+              <button type="submit" 
+                      class="submit-button">
+                + send +
+              </button>
+          </form>
+        </div>
+        <br>
+        <br>
+
+    </main>
+  </body>
+</html>
