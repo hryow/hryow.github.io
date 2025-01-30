@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- responsive web design -->
+        <meta charset= "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Hayoung Ryow </title>
+
+        <!-- CSS style sheet links -->
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/proj.css">
+
+        <link rel="icon" href="../media/icon.png" type="image/x-icon" />
+        
+        <!-- heading font: Playwrite US Trad -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+        <!-- body font: Inria Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+    </head>
+
+<body>
+    <!-- navigation bar -->
+    <nav id="navbar">
+        <div id="name">
+            <h1> <a href="index.html">hayoung ryow </a></h1>
+        </div>
+
+        <!-- navbar links -->
+        <div id="links">
+            <ul id="navbar-links">
+                <li> <a href="projects.html">projects</a></li>
+                <li> <a href="about.html">about</a></li>
+                <li> <a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <main>
+        <a class="button" href="../projects.html">+ back to projects +</a>
+        <h5>nonprofit website redesign</h5>
+        <p><span><strong>web design</strong></span></p>
+
+        <img class="kkoom" src="../media/mockup.png">
+
+        <h4>the project</h4>
+        <p class="description"> KKOOM is a nonprofit organization dedicated to providing youth with education and care. Their current website is somewhat aesthetically pleasing, however, there is a mismatch between the organization's mission and the aesthetic of the website, as the current design comes across as somewhat sterile and academic. In my redesign, I incorporated elements that people commonly associate with dreams, as KKOOM means dream in Korean. To match this, I incorporated a paper airplane meandering around as well as clouds throughout the page to evoke a childlike feel. 
+        </p>
+
+        <h4>toolkit</h4>
+        <p class="description"> <span><strong> Programs Used:</strong></span> Figma
+        </p>
+
+        <h4>moodboard</h4>
+        <img class="kkoom" src="../media/kkoommoodboard.jpg">
+
+        <h4>wireframes</h4>
+        <object class="pdf" data="../media/Hayoung Ryow - Project 1 Wireframes.pdf">
+        </object>
+
+        <h4>final product</h4>
+        <img class="final-product" src="../media/kkoomfinal.png">
+        <br>
+
+        <a class="button" href="../projects.html">+ back to projects +</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
+  </body>
+
+  <script type="text/javascript">
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+</html>
