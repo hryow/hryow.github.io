@@ -25,12 +25,7 @@ main {
 }
 
 #intro-text {
-  width: 65%;
-}
-
-/* contact me form */
-#contact {
-  margin-top: 2%;
+  width: 66%;
 }
 
 #text {
@@ -44,49 +39,18 @@ label {
   text-decoration: none;
 }
 
-input[type=tel], input[type=email], input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical; 
-}
-
-input[placeholder=Name] {
-  text-align: left;
-}
-
-input[type=submit] {
-  background-color: var(--purple-accent);
-  color: white;
-  padding: 6px 12px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  font-family: "Inria Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-bottom: 10%;
-}
-
-input[type=submit]:hover {
-  font-weight: 700;
-}
-
 .container {
   border-radius: 5px;
   background-color: white;
 }
 
 span {
-  background-color: var(--light-purple);
+  background-color: #e2daf7;
   border-radius: 10px;
   padding-left: 7px;
   padding-right: 7px;
-  font-weight: 700;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
  
 /* responsive design */
