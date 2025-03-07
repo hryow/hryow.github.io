@@ -10,6 +10,10 @@ span {
   color: var(--purple-accent);
 }
 
+.wrapper {
+/*  display: flex;*/
+}
+
 .description {
   text-align: left;
   margin-left: 10%;
@@ -31,6 +35,12 @@ p {
   margin-bottom: 1%;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
 .block {
   display: flex;
   align-items: left;
@@ -39,6 +49,15 @@ p {
 }
 
 a:hover {
+  font-weight: 400;
+}
+
+.description .proj-link {
+    font-weight: 1000;
+    color: var(--purple-accent);
+}
+
+.description .proj-link:hover {
   font-weight: 400;
 }
 
@@ -94,5 +113,8 @@ object {
   video {
     width: 80%;
     height: 50%;
+  }
+  .grid {
+     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
