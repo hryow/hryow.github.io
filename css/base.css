@@ -113,6 +113,22 @@ p {
   line-height: 180%;
 }
 
+figcaption {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 180%;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figure img {
+  width: 80%;
+}
+
 .button {
   background-color: var(--purple-accent);
   color: white;
