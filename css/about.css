@@ -9,6 +9,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 #about-me-text {
@@ -60,7 +61,7 @@ span {
 .date {
   opacity: 60%;
   margin-bottom: 0px;
-  text-align: left;
+  text-align: right;
 }
 
 .block {

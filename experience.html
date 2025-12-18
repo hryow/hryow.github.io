@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- responsive web design -->
+        <meta charset= "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Hayoung Ryow </title>
+
+        <!-- CSS style sheet links -->
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/about.css">
+
+        <link rel="icon" href="./media/icon.png" type="image/x-icon" />
+        
+        <!-- heading font: Playwrite US Trad -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+        <!-- body font: Inria Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+    </head>
+
+<body>
+    <!-- navigation bar -->
+    <nav id="navbar">
+        <div id="name">
+            <h1> <a href="index.html">hayoung ryow </a></h1>
+        </div>
+
+        <!-- navbar links -->
+        <div id="links">
+            <ul id="navbar-links">
+                <li> <a href="projects.html">projects</a></li>
+                <li> <a href="about.html">about</a></li>
+                <li> <a href="experience.html">experience</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <main>
+        <div class="section">
+            <h5> experience </h5>
+            <div class="block">
+                <div>
+                    <p> <strong>Secure Benefit</strong></p>
+                    <p> <i>Web Developer</i> </p>
+                    <p> <i>HTML/CSS, JavaScript</i></p>
+                </div>
+                <div>
+                    <p class="date"> Santa Clara, CA</p>
+                    <p class="date"> <i>Jun 2025 - Sept 2025</i></p>
+                </div>
+            </div>
+
+            <ol class="bulletpoints">
+                <li>Designed and developed a responsive, accessible company website for Secure Benefit, an employee benefits insurance provider, using HTML, CSS, and JavaScript</li>
+                <li> Collaborated with company stakeholders to gather requirements and ensure the site reflected brand values and compliance needs </li>
+            </ol> 
+
+            <div class="block">
+                <div>
+                    <p> <strong>EPIC IoT Dashboard</strong></p>
+                    <p> <i>Front-End Developer</i> </p>
+                    <p> <i>Node.js, React.js</i></p>
+                </div>
+                <div>
+                    <p class="date"> Santa Clara, CA</p>
+                    <p class="date"> <i>Oct 2024 - present</i></p>
+                </div>
+            </div>
+
+            <ol class="bulletpoints">
+                <li>Contributed to the addition of device management functionality using React.js and Node.js, enhancing agricultural management capabilities</li>
+                <li> Implemented login with administrator permissions for select users, notification functionalities for announcements, and device monitoring for agricultural equipment </li>
+                <li> Designed interface and visual aesthetic of the dashboard using Figma </li>
+            </ol> 
+        </div>
+
+        <!-- education -->
+        <div class="section">
+            <h5> education </h5>
+            <div class="block">
+                <div> 
+                      <p> <strong>Santa Clara University</strong></p>
+                      <p> <i>B.S. in Computer Science, Minor in Mathematics & Graphic Design</i> </p>
+                </div>
+                <div>
+                    <p class="date"> Santa Clara, CA</p> 
+                    <p class="date"> <i>Expected June 2026</i></p>
+                </div>
+            </div>
+
+            <ol class="bulletpoints">
+                <li>Emphasis: Algorithms & Complexity</li>
+                <li> Relevant Coursework: Theory of Algorithms, Data Structures, Web Development, Object-Oriented Programming (C++) </li>
+            </ol> 
+        </div>
+        <br>
+
+        <!-- leadership -->
+        <h5> leadership </h5>
+        <div class="block">
+            <p> <strong>Co-Chair</strong> of Daybreak</p>
+            <p class="date"> May 2024 - present </p>
+        </div>
+
+        <div class="block">
+            <p> <strong>Historian</strong> of Korean Student Association (KSA)</p>
+            <p class="date"> May 2024 - present </p>
+        </div>
+
+        <div class="block">
+            <p><strong>Event Coordinator</strong> of Daybreak</p>
+            <p class="date"> May 2023 - May 2024 </p>
+        </div>
+
+        <div class="block">
+            <p> <strong>Historian</strong> of Asian and Pacific Islander Student Union (APSU)</p>
+            <p class="date"> May 2023 - June 2024 </p>
+        </div>
+
+        <div class="block">
+            <p> <strong>Freshman Representative</strong> of Daybreak</p>
+            <p class="date"> Sept 2022 - May 2023 </p>
+        </div>
+
+
+    </main>
+    <footer>
+    </footer>
+  </body>
+
+  <script type="text/javascript">
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+</html>
