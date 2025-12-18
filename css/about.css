@@ -6,14 +6,24 @@ main {
 } 
 
 #about-me {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-top: 20px;
+  overflow: auto;
 }
 
 #about-me-text {
   width: 68%;
+}
+
+#profile {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  margin: 50px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  shape-outside: circle(50%);
 }
 
 #skills {
