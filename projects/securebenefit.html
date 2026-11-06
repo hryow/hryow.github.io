@@ -4,27 +4,18 @@
         <!-- responsive web design -->
         <meta charset= "UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title> Hayoung Ryow </title>
+        <meta name="description" content="A responsive website built for Secure Benefit, an employee benefits insurance provider."/>
+        <title>Secure Benefit | Hayoung Ryow</title>
 
         <!-- CSS style sheet links -->
-        <link rel="stylesheet" href="../css/base.css">
-        <link rel="stylesheet" href="../css/proj.css">
+        <link rel="stylesheet" href="../css/site.css">
 
         <link rel="icon" href="../media/icon.png" type="image/x-icon" />
+        <script src="../script.js" defer></script>
         
-        <!-- heading font: Playwrite US Trad -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
-
-        <!-- body font: Inria Sans -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
-
     </head>
 
-<body>
+  <body class="page-project">
     <!-- navigation bar -->
     <nav id="navbar">
         <div id="name">
@@ -37,11 +28,12 @@
                 <li> <a href="../projects.html">projects</a></li>
                 <li> <a href="../about.html">about</a></li>
                 <li> <a href="../experience.html">experience</a></li>
+                <li> <a href="../contact.html">contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+    <button id="myBtn" title="Go to top">↑</button>
 
     <main>
         <a class="button" href="../projects.html">+ back to projects +</a>
@@ -93,26 +85,4 @@
 
     </main>
   </body>
-
-  <script type="text/javascript">
-    // Get the button:
-    let mybutton = document.getElementById("myBtn");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-  </script>
 </html>

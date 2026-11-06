@@ -1,0 +1,135 @@
+{
+  "pdfPath": "./media/Hayoung_Ryow_Resume.pdf",
+  "basics": {
+    "name": "Hayoung Ryow",
+    "location": "Santa Clara, CA",
+    "email": "hayoung.ryow@gmail.com",
+    "website": "./index.html",
+    "linkedin": "https://www.linkedin.com/in/hayoung-ryow/",
+    "github": "https://github.com/hryow"
+  },
+  "summary": "Recent Computer Science graduate with a minor in Graphic Design who builds polished web experiences, collaborative design systems, and maintainable full-stack products.",
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["JavaScript", "TypeScript", "Python", "C++", "HTML/CSS"]
+    },
+    {
+      "category": "Frameworks",
+      "items": ["React", "Node", "Express", "Vite", "QT", "Flutter"]
+    },
+    {
+      "category": "Tools",
+      "items": ["PostgreSQL", "Supabase", "Jest", "Vitest", "Cypress", "Figma"]
+    },
+    {
+      "category": "Design",
+      "items": ["Illustrator", "Webflow", "Procreate", "Miro", "i18next"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Pujukan",
+      "title": "Web Developer",
+      "location": "Chino Hills, CA",
+      "start": "Apr 2026",
+      "end": "Present",
+      "tools": ["React", "Vite", "PostgreSQL", "Supabase", "i18next", "Figma"],
+      "highlights": [
+        "Developed a full-stack website for a local meat retailer using React, Vite, and Supabase (PostgreSQL), delivering a fast browsing experience for 20+ meat offerings.",
+        "Built a Supabase/PostgreSQL backend that lets the business owner update offerings, descriptions, and pricing without developer support.",
+        "Implemented English and Korean support with i18next to make the site accessible to a broader customer base."
+      ]
+    },
+    {
+      "company": "EPIC IoT Dashboard",
+      "title": "Software Developer",
+      "location": "Santa Clara, CA",
+      "start": "Oct 2024",
+      "end": "Present",
+      "tools": ["Node", "React", "Figma"],
+      "highlights": [
+        "Led UI/UX design work in Figma with product and backend teams to create responsive interfaces for technical and non-technical users.",
+        "Diagnosed and resolved rendering and performance bottlenecks in a React map component.",
+        "Translated IoT data requirements into user-facing features by coordinating between hardware engineers and non-technical stakeholders."
+      ]
+    },
+    {
+      "company": "Coding Minds",
+      "title": "Instructor",
+      "location": "Diamond Bar, CA",
+      "start": "Jul 2025",
+      "end": "Jun 2026",
+      "tools": ["Python", "Flutter", "Dart"],
+      "highlights": [
+        "Taught Python and Flutter development to 15+ students across varied skill levels.",
+        "Improved average assessment scores by 25% through customized curriculum and real-time feedback.",
+        "Adjusted teaching approaches using student performance data to close learning gaps."
+      ]
+    },
+    {
+      "company": "Secure Benefit",
+      "title": "Web Developer",
+      "location": "Santa Clara, CA",
+      "start": "Jun 2025",
+      "end": "Sept 2025",
+      "tools": ["HTML/CSS", "JavaScript"],
+      "highlights": [
+        "Designed and developed a responsive, accessible company website for an employee benefits insurance provider.",
+        "Collaborated with stakeholders to gather requirements and ensure the site reflected brand values and compliance needs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SCU Marketplace",
+      "category": "Software Development",
+      "date": "2025",
+      "stack": ["React", "Vite", "PostgreSQL", "Figma"],
+      "summary": "Built a marketplace web app for Santa Clara University students with a modern buying and selling flow."
+    },
+    {
+      "name": "WebCrack",
+      "category": "Hackathon Finalist",
+      "date": "2024",
+      "stack": ["React", "Python", "HTML/CSS"],
+      "summary": "Designed a Chrome extension that scans articles for bias and suggests additional perspectives."
+    },
+    {
+      "name": "HoneyBuddy",
+      "category": "Design-a-thon Winner",
+      "date": "2025",
+      "stack": ["Illustrator", "Figma", "Miro"],
+      "summary": "Created a student habit-building app concept focused on approachable, playful interaction design."
+    }
+  ],
+  "education": [
+    {
+      "school": "Santa Clara University",
+      "degree": "B.S. in Computer Science, Minor in Graphic Design",
+      "location": "Santa Clara, CA",
+      "dates": "Graduated June 2026",
+      "coursework": "Data Structures, Web Development, OOP (C++), Theory of Algorithms",
+      "highlights": [
+        "GPA: 3.70/4.0, Cum Laude"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "role": "Co-Chair",
+      "organization": "Daybreak",
+      "dates": "May 2024 - June 2026"
+    },
+    {
+      "role": "Co-Culture Show Director",
+      "organization": "Korean Student Association (KSA)",
+      "dates": "June 2025 - June 2026"
+    },
+    {
+      "role": "Historian",
+      "organization": "Korean Student Association (KSA)",
+      "dates": "May 2024 - June 2025"
+    }
+  ]
+}

@@ -4,27 +4,18 @@
         <!-- responsive web design -->
         <meta charset= "UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title> Hayoung Ryow </title>
+        <meta name="description" content="Explore Hayoung Ryow's software development, web design, and product design projects."/>
+        <title>Projects | Hayoung Ryow</title>
 
         <!-- CSS style sheet links -->
-        <link rel="stylesheet" href="./css/base.css">
-        <link rel="stylesheet" href="./css/projects.css">
+        <link rel="stylesheet" href="./css/site.css">
 
         <link rel="icon" href="./media/icon.png" type="image/x-icon" />
+        <script src="./script.js" defer></script>
         
-        <!-- heading font: Playwrite US Trad -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
-
-        <!-- body font: Inria Sans -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
-
     </head>
 
-<body>
+  <body class="page-projects">
     <!-- navigation bar -->
     <nav id="navbar">
         <div id="name">
@@ -37,210 +28,26 @@
                 <li> <a href="projects.html">projects</a></li>
                 <li> <a href="about.html">about</a></li>
                 <li> <a href="experience.html">experience</a></li>
+                <li> <a href="contact.html">contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+    <button id="myBtn" title="Go to top">↑</button>
 
     <main>
         <!-- sorting buttons -->
         <div id="sort">
-          <button class="tag tag-active" data-tag="all">+ all</button>
-          <button class="tag" data-tag="coding">+ coding</button>
-          <button class="tag" data-tag="design">+ design</button>
+          <button class="tag active" data-tag="all" aria-pressed="true">+ all</button>
+          <button class="tag" data-tag="coding" aria-pressed="false">+ coding</button>
+          <button class="tag" data-tag="design" aria-pressed="false">+ design</button>
         </div>
 
         <!-- projects -->
-        <section id="projects">
-          <article data-tag="coding design">
-            <div class="bg-rectangle" style="background-color: #A32035">
-              <img src="./media/scu-marketplace-full-logo.png" width="350px">
-            </div>
-            <div class="proj-desc">
-              <p class="heading"><strong><span>Software Development</span></strong></p>
-              <h3> SCU Marketplace </h3>
-              <p class="heading"> <em> Sept 2025 - Dec 2025 </em>
-                <br> <span>HTML/CSS, Javascript (Node, Express.js, React.js), Vite, PostgreSQL, Figma</span>
-              </p> 
-              <p> Web application hosting a marketplace for Santa Clara University students.
-              </p>
-              <a class="button" href="./projects/scumarketplace.html">+ learn more +</a>
-              <br>
-            </div>
-          </article>
-          <article data-tag="coding design">
-            <div class="bg-rectangle" style="background-color: #222831">
-              <img src="./media/Secure Benefit Logo.png" width="350px">
-            </div>
-            <div class="proj-desc">
-              <p class="heading"><strong><span>Web Development</span></strong></p>
-              <h3> Secure Benefit </h3>
-              <p class="heading"> <em> Jun 2025 - Sept 2025 </em>
-                <br> <span>HTML/CSS, Javascript</span>
-              </p> 
-              <p> Employee benefits insurance company website
-              </p>
-              <a class="button" href="./projects/securebenefit.html">+ learn more +</a>
-              <br>
-            </div>
-          </article>
-          <article data-tag="design">
-            <div class="bg-rectangle" style="background-color: #f0c795">
-              <img src="./media/HoneyBuddy Cover.jpg" width="350px">
-            </div>
-            <div class="proj-desc">
-              <p class="heading"><strong><span>Design-a-thon Winner</span></strong></p>
-              <h3> HoneyBuddy </h3>
-              <p class="heading"> <em> Feb 2025 </em>
-                <br> <span>Adobe Illustrator, Figma, Miro</span>
-              </p> 
-              <p> App designed to help busy college students build good habits!
-              </p>
-              <a class="button" href="./projects/honeybuddy.html">+ learn more +</a>
-              <br>
-            </div>
-          </article>
-          <article data-tag="coding">
-            <div class="bg-rectangle" style="background-color: var(--light-purple)">
-              <img src="./media/haiku.gif" width="350px">
-            </div>
-            <div class="proj-desc">
-              <p class="heading"><strong><span>Web Development</span></strong></p>
-              <h3> Make-Your-Own Haiku </h3>
-              <p class="heading"> <em> Sept 2024 - Dec 2024</em>
-                <br> <span>HTML/CSS, Javascript (Node.js)</span>
-              </p> 
-              <p> A build-your-own haiku website!
-              </p>
-              <a class="button" href="./projects/haiku.html">+ learn more +</a>
-              <br>
-            </div>
-          </article>
-          <article data-tag="design">
-            <div class="bg-rectangle" style="background-color: #f2dedc">
-              <img src="./media/Mockup - Macbook Pro copy.png" width="400px">
-            </div>
-            <div class="proj-desc">
-              <p class="heading"><strong><span>Web Design</span></strong></p>
-              <h3> Korean Student Association </h3>
-              <p class="heading"> <em> Dec 2024 </em>
-                <br> <span>Figma, Webflow</span>
-              </p> 
-              <p> Website design for SCU's Korean Student Association
-              </p>
-              <a class="button" href="./projects/ksa.html">+ learn more +</a>
-              <br>
-            </div>
-          </article>
-          <article data-tag="design">
-            <div class="bg-rectangle" style="background-color: #cfe5ff">
-              <img src="./media/mockup.png" width="400px">
-            </div>
-            <div class="proj-desc">
-              <p class="heading"><strong><span>Web Design</span></strong></p>
-              <h3> KKOOM </h3>
-              <p class="heading"> <em> Oct 2024 </em>
-                <br> <span>Figma</span>
-              </p> 
-              <p> Redesign of nonprofit KKOOM website
-              </p>
-              <a class="button" href="./projects/kkoom.html">+ learn more +</a>
-              <br>
-            </div>
-          </article>
-
-          <article data-tag="coding design">
-            <div class="bg-rectangle" style="background-color: #f5d9ba">
-              <img class="proj-image" src="./media/webcrack/webcrack.png">
-            </div>
-            <div class="proj-desc">
-              <p class="heading"><strong><span>Hackathon Finalist</span></strong></p>
-              <h3> WebCrack </h3>
-              <p class="heading"> <em> Feb 2024 </em>
-                <br> <span>HTML, CSS, Javascript (React.js), Python</span>
-              </p>
-              <p> Google Chrome extension designed to scan articles for bias
-              </p>
-              <a class="button" href="./projects/webcrack.html">+ learn more +</a>
-              <br>
-            </div>
-          </article>
-
-          <article data-tag="coding">
-            <div class="bg-rectangle" style="background-color: #f5e8ba">
-              <img class="proj-image2" src="./media/socialnetwork4.png">
-            </div>
-            <div class="proj-desc">
-              <p class="heading"><strong><span>Full Stack Project <span></strong></p>
-              <h3> Social Network </h3>
-              <p class="heading"> <em> Sept 2023 - Dec 2023</em>
-                <br> <span>C++, QT</span>
-              </p>
-              <p> Social network program connecting users with friend suggestion and post functionality
-              </p>
-              <a class="button" href="./projects/socialnetwork.html">+ learn more +</a>
-              <br>
-            </div>
-          </article>
-        </section>
+        <section id="projects" aria-live="polite"></section>
         <br>
         <br>
 
     </main>
   </body>
-
-  <script type="text/javascript">
-    // project sorting
-    document.addEventListener('DOMContentLoaded', () => {
-      const buttons = document.querySelectorAll('#sort .tag'); 
-      const articles = document.querySelectorAll('#projects article');
-
-      function applyFilter(tag) {
-        buttons.forEach(btn => btn.classList.remove('active'));
-        document.querySelector(`[data-tag="${tag}"]`).classList.add('active');
-
-        articles.forEach(article => {
-          const selected_tags = article.getAttribute('data-tag').split(' ');
-          if (selected_tags.includes(tag) || tag == "all") {
-            article.style.display = '';
-          }
-          else {
-            article.style.display = "none";
-          }
-        });
-      }
-
-      applyFilter("all");
-
-      // create functionality for each button
-      buttons.forEach(button => {
-        // every time a button is clicked, show only the relevant projects
-        button.addEventListener('click', () => {
-          const tag = button.getAttribute('data-tag');
-          applyFilter(tag);
-        });
-      });
-    });
-
-    // Get the button:
-    let mybutton = document.getElementById("myBtn");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-  </script>
 </html>
